@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #000;
+  background-image: url(novo_fundo_netflix.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image {
+  position: relative;
+}
+.image img {
+  position: absolute;
+  width: 17%;
+  top: -69px;
+  left: 0;
+}
+h1 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+.form_input {
+  margin-top: 70px;
+  background-color: #000000da;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 78px;
+}
+.inputBox {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.inputBox input {
+  width: 300px;
+  height: 49px;
+  padding: 6px;
+  transition: background 0.3s ease;
+  background-color: #333;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+.inputBox input::placeholder {
+  font-size: 1.1rem;
+  color: #888;
+}
+.inputBox input:focus {
+  color: #888;
+  font-size: 1.2rem;
+  background-color: #444;
+}
+button {
+  background-color: #e21111;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  height: 49px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 17px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  transition: background 0.4s;
+}
+.inputBox input:hover {
+  background-color: #444444d2;
+}
+button:hover {
+  background-color: #d61313c5;
+}
+.checbox p {
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.checbox p:hover {
+  text-decoration: underline;
+}
+.checbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.checbox input {
+  width: 40px;
+  height: 16px;
+}
+.res {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.res a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.res a:hover {
+  text-decoration: underline;
+}
+#chebox {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#chebox:hover {
+  text-decoration: underline;
+}
